@@ -1,0 +1,38 @@
+.navbar {
+    background: #be2edd !important;
+    padding: 10px;
+}
+
+.icon-bar {
+    margin: 6px;
+    height: 3px;
+    width: 35px;
+    background: white !important;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fec400 !important;
+    transition: 0.2s;
+}
+.navbar-brand{
+    color: white;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+.nav-item:hover::after {
+    width: 100%;
+}
+.nav-item a{
+    background: transparent !important;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
